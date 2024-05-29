@@ -1,0 +1,14 @@
+base: /
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    locale: de_DE
+    hreflang: de-DE
+    base: /
+    websiteTitle: ''
+    navigationTitle: ''
+    flag: de
+    languageId: 0
+rootPageId: 1
+websiteTitle: 'Liszt-Portal v12'
