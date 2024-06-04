@@ -17,7 +17,6 @@
 	"dependencies": {
 		"autoprefixer": "^10.4.17",
 		"bootstrap": "^5.3.3",
-		"mdn-data": "^2.4.0",
 		"postcss-loader": "^8.1.0",
 		"postcss-preset-env": "^9.3.0",
 		"mdn-data": "^2.4.0",
