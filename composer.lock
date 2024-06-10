@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e70e9a9ec2995cade3abd376ee2a1d7",
+    "content-hash": "7d8b374847a919233fd31059f1885ada",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2519,11 +2519,11 @@
         },
         {
             "name": "slub/liszt-web",
-            "version": "dev-10-portal-v1",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "packages/liszt_web",
-                "reference": "3c7461032e0259b44b0eb4bdbd437d4df1670036"
+                "reference": "714f129353bcc08c813201d13f7963d034e607e4"
             },
             "require": {
                 "quellenform/t3x-iconpack": "^1.0",
@@ -6809,6 +6809,64 @@
                 }
             ],
             "description": "TYPO3 CMS Install Tool - The Install Tool is used for installation, upgrade, system administration and setup tasks.",
+            "homepage": "https://typo3.org",
+            "support": {
+                "chat": "https://typo3.org/help",
+                "docs": "https://docs.typo3.org",
+                "issues": "https://forge.typo3.org",
+                "source": "https://github.com/typo3/typo3"
+            },
+            "time": "2024-05-14T08:24:50+00:00"
+        },
+        {
+            "name": "typo3/cms-lowlevel",
+            "version": "v12.4.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/lowlevel.git",
+                "reference": "b4afe08e13ba38bf0cb44e381aad888e460f4f55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/lowlevel/zipball/b4afe08e13ba38bf0cb44e381aad888e460f4f55",
+                "reference": "b4afe08e13ba38bf0cb44e381aad888e460f4f55",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "12.4.15"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "12.4.x-dev"
+                },
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "lowlevel"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Lowlevel\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "TYPO3 CMS Lowlevel - Technical analysis of the system. This includes raw database search, checking relations, counting pages and records etc.",
             "homepage": "https://typo3.org",
             "support": {
                 "chat": "https://typo3.org/help",
