@@ -17,9 +17,10 @@
 	"dependencies": {
 		"autoprefixer": "^10.4.17",
 		"bootstrap": "^5.3.3",
+		"mdn-data": "^2.4.0",
+		"modern-normalize": "^2.0.0",
 		"postcss-loader": "^8.1.0",
 		"postcss-preset-env": "^9.3.0",
-		"mdn-data": "^2.4.0",
 		"sass": "^1.70.0",
 		"sharp": "^0.33.2",
 		"svgo": "^3.2.0",
