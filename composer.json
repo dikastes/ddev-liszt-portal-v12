@@ -21,8 +21,8 @@
 		}
 	},
 	"require": {
+		"b13/doktypemapper": "^1.1",
 		"contentblocks/content-blocks": "^0.7.14",
-		"georgringer/news": "^11.4",
 		"praetorius/vite-asset-collector": "^1.9",
 		"slub/liszt-web": "@dev",
 		"typo3/cms-adminpanel": "^12.4",
