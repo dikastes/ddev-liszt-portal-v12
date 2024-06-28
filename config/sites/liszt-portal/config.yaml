@@ -12,3 +12,11 @@ languages:
     languageId: 0
 rootPageId: 1
 websiteTitle: 'Liszt-Portal v12'
+routeEnhancers:
+  PageTypeSuffix:
+    type: PageType
+    default: /
+    index: ''
+    map:
+      /: 0
+      site.webmanifest: 3478304621
