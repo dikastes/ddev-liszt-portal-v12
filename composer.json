@@ -23,7 +23,10 @@
 	"require": {
 		"b13/doktypemapper": "^1.1",
 		"contentblocks/content-blocks": "^0.7.14",
+		"dikastes/zotero-api": "@dev",
 		"praetorius/vite-asset-collector": "^1.9",
+		"slub/liszt-bibliography": "@dev",
+		"slub/liszt-common": "@dev",
 		"slub/liszt-web": "@dev",
 		"typo3/cms-adminpanel": "^12.4",
 		"typo3/cms-backend": "^12.0",

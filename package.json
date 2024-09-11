@@ -20,6 +20,7 @@
 		"mdn-data": "^2.4.0",
 		"modern-normalize": "^2.0.0",
 		"parvus": "^2.6.0",
+		"photoswipe": "^5.4.4",
 		"postcss-loader": "^8.1.0",
 		"postcss-preset-env": "^9.3.0",
 		"sass": "^1.70.0",
