@@ -6,14 +6,15 @@
 	"config": {
 		"allow-plugins": {
 			"typo3/class-alias-loader": true,
-			"typo3/cms-composer-installers": true
+			"typo3/cms-composer-installers": true,
+			"php-http/discovery": true
 		},
 		"platform": {
 			"php": "8.2"
 		},
 		"sort-packages": true
 	},
-	"minimum-stability": "alpha",
+	"minimum-stability": "dev",
 	"repositories": {
 		"local-packages": {
 			"type": "path",
@@ -47,6 +48,7 @@
 		"typo3/cms-install": "^12.0",
 		"typo3/cms-lowlevel": "^12.4",
 		"typo3/cms-rte-ckeditor": "^12.0",
+		"typo3/cms-scheduler": "^12",
 		"typo3/cms-seo": "^12.0",
 		"typo3/cms-setup": "^12.0",
 		"typo3/cms-sys-note": "^12.0",
