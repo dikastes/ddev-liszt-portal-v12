@@ -2,6 +2,7 @@
 
 if (\TYPO3\CMS\Core\Core\Environment::getContext() == 'Development') {
     // Use dev server only if it's running ( ddev vite-serve start )
+    $GLOBALS['TYPO3_CONF_VARS']['SYS']['trustedHostsPattern'] = (string)'ddev-liszt-portal-v12.ddev.site';
     $GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['vite_asset_collector']['useDevServer'] = (bool)exec('tmux ls 2>/dev/null | grep vite-sess');
     $GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['vite_asset_collector']['devServerUri'] = (string)getenv('DDEV_PRIMARY_URL') . ':' . getenv('VITE_PRIMARY_PORT');
 
