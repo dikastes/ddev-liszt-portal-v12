@@ -4,6 +4,13 @@ Get going quickly with TYPO3 CMS and GitLab.
 
 ## Quickstart
 
+Create a `packages` folder. Clone the Liszt Portal specific dependencies, which are currently:
+
+- [slub/liszt_common](https://github.com/slub/liszt_common)
+- [slub/liszt_web](https://github.com/slub/liszt_web)
+- [slub/liszt_bibliography](https://github.com/slub/liszt_bibliography)
+- [dikastes/zotero-api](https://github.com/dikastes/zotero-api)
+  
 Use the following ddev command to set up the template
 
 `ddev typo3-init`
