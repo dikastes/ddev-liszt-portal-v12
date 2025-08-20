@@ -23,8 +23,8 @@
 	},
 	"require": {
 		"b13/doktypemapper": "^1.1",
-		"contentblocks/content-blocks": "^0.7.14",
 		"dikastes/zotero-api": "@dev",
+		"friendsoftypo3/content-blocks": "0.7.x-dev",
 		"praetorius/vite-asset-collector": "^1.9",
 		"slub/liszt-bibliography": "@dev",
 		"slub/liszt-common": "@dev",
@@ -54,7 +54,8 @@
 		"typo3/cms-sys-note": "^12.0",
 		"typo3/cms-t3editor": "^12.0",
 		"typo3/cms-tstemplate": "^12.0",
-		"typo3/cms-viewpage": "^12.0"
+		"typo3/cms-viewpage": "^12.0",
+		"ext-intl": "*"
 	},
 	"scripts":{
 		"typo3-cms-scripts": [

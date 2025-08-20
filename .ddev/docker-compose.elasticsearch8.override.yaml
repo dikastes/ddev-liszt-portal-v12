@@ -1,0 +1,7 @@
+services:
+  elasticsearch:
+    build:
+      context: ./elasticsearch
+    volumes:
+      - ./elasticsearch/config/elasticsearch8.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - elasticsearch:/usr/share/elasticsearch/data
